@@ -1,0 +1,102 @@
+body {
+    background-size: cover;
+}
+.head {
+    box-shadow: 0px 0px 20px #514A9D;
+    font-family: 'Trade Winds', cursive;
+    font-size: 25px !important;
+    text-shadow: 0px 0px 7px lightgray;
+    width: 50%;
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    from {background-color: #337ab7;}
+    to {background-color: azure;}
+    from {color: white;}
+    to {color: #337ab7;}
+    from {text-shadow: 0px 0px 7px lightgray;}
+    to {text-shadow: -2px 0px 3px #337ab7;}
+    from {box-shadow: 0px 0px 20px #514A9D;}
+    to {box-shadow: 0px 0px 10px aquamarine;}
+    from {width: 50%;}
+    to {width: 80%;}
+}
+
+#status , #result {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px !important;
+    font-weight: bolder;
+    text-shadow: 0px 0px 7px lightgray;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 20px #514A9D;
+}
+
+#start {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 18px !important;
+    font-weight: bolder;
+    text-shadow: 0px 0px 7px lightgray;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 20px #514A9D;
+}
+
+#footer {
+    border: 5px solid lightgray;
+    font-size: 18px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    line-height: 3;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    box-shadow: 0px -5px 10px white;
+    text-shadow: 0px 0px 7px lightgray;
+}
+
+#text_box {
+    width: 25%;
+    margin-top: 10px;
+    text-align: center;
+    padding: 6px;
+    font-family: cursive;
+    text-shadow: 0px 0px 7px lightgray;
+    background: transparent;
+    border: 4px solid white;
+    color: white;
+}
+
+.modal-dialog {
+    display: inline-block;
+    width: 80% !important;
+}
+
+.modal-dialog .modal-header {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 20px !important;
+    text-shadow: 0px 0px 3px grey;
+}
+
+.number {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    text-align: left;
+}
+
+#note {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+#ctrl {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px !important;
+    font-weight: bolder;
+    text-shadow: 0px 0px 7px lightgray;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 20px #514A9D;
+    margin-top: 350px;
+}
