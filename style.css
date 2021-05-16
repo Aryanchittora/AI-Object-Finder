@@ -27,11 +27,12 @@ body {
 
 #status , #result {
     font-family: 'Kaushan Script', cursive;
-    font-size: 18px !important;
+    font-size: 16px !important;
     font-weight: bolder;
     text-shadow: 0px 0px 7px lightgray;
     letter-spacing: 2px;
     box-shadow: 0px 0px 20px #514A9D;
+    margin-bottom: 20px; 
 }
 
 #start {
@@ -98,5 +99,11 @@ body {
     text-shadow: 0px 0px 7px lightgray;
     letter-spacing: 2px;
     box-shadow: 0px 0px 20px #514A9D;
-    margin-top: 350px;
+    margin-top: 370px;
+}
+
+canvas {
+    border: 5px solid whitesmoke;
+    box-shadow: 0px 0px 20px #514A9D;
+    margin-top: 100px;
 }
